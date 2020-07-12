@@ -1,0 +1,5 @@
+222831  matte blackish
+393e46  matte dark greyish
+fbd46d  matte yellowish
+fbd49f  light yellowish
+eeeeee  off whitish

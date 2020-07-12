@@ -1,0 +1,151 @@
+body{
+  background-color: #393e46;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #eeeeee;
+  text-align: center;
+}
+h1{
+  color: #fbd46d;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2{
+  color: #fbd46d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #fbd49f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #fbd46d 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eeeeee;
+}
+
+.top-container{
+  color: #fbd46d;
+  position: relative;
+  padding-top: 90px;
+  width: 100%;
+  height: 850px;
+}
+
+.top-container h1{
+  font-size: 6.9rem;
+  position: relative;
+  bottom: 500px;
+  color: black;
+}
+
+.top-container h2{
+  position: relative;
+  bottom: 200px;
+}
+
+.computer-screen-img{
+  height: 600px;
+  width: 700px;
+  z-index: -1;
+}
+
+.scroll-down-arrow{
+  margin: 10px;
+  position: relative;
+  top: -200px;
+}
+
+.scroll-down-arrow:hover{
+  transform: scale(1.2);
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+#profile-img{
+  border-radius: 100%;
+}
+
+.profile-description{
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skillimg{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+.contact-description{
+  width: 40%
+  margin: 40px auto 60px;
+  padding: 10px;
+}
+.contact-btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 4px #222831;
+  -moz-box-shadow: 0px 1px 4px #222831;
+  box-shadow: 0px 1px 4px #222831;
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+  font-size: 20px;
+  background: #fbd46d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background: #eeeeee;
+  text-decoration: none;
+  color: #393e46;
+}
+
+.bottom-container{
+  background-color: #fbd46d;
+  color: #393e46;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  font-weight: bold;
+}
+
+#copyright-text{
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
