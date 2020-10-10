@@ -1,4 +1,5 @@
 body{
+  width: fit-content;
   background-color: #393e46;
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -34,6 +35,20 @@ hr{
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+}
+
+::-webkit-scrollbar{
+  background: #393e46;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fbd46d; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eeeeee;
 }
 
 a{
@@ -110,7 +125,7 @@ a:hover{
 
 
 .contact-description{
-  width: 40%
+  width: 40%;
   margin: 40px auto 60px;
   padding: 10px;
 }
@@ -148,4 +163,76 @@ a:hover{
 #copyright-text{
   padding: 20px 0;
   font-size: 0.75rem;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #393e46;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px){
+
+  .middle-container{
+    margin: 200px 0;
+  }
+  
+  #profile-img{
+    width: 50%;
+  }
+  
+  h2{
+    font-size: 3rem;
+  }
+
+  .profile-description{
+    width: 100%;
+    font-size: 1.5rem;
+    margin: auto;
+  }
+  
+  .skill-row{
+    width: 90%;
+    margin: 100px auto;
+    text-align: left;
+  }
+  
+  .skillimg{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .skill-description{
+    font-size: 1.2rem;
+  }
+
+  .contact-description{
+    width: 70%;
+    font-size: 1.5rem;
+    
+  }
+
+  .contact-btn {
+    font-size: 2rem;
+  }
+
+  .footer-link{
+    font-size: 2rem;
+  }
+  
+  #copyright-text{
+    font-size: 1.2rem;
+  }
 }
