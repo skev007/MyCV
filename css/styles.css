@@ -1,5 +1,4 @@
 body{
-  width: fit-content;
   background-color: #393e46;
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -110,19 +109,42 @@ a:hover{
   margin: auto;
 }
 
-.skill-row{
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px;
 }
+
+.row-item{
+  flex: 1 0 24%;
+  width: 50%;
+  border-radius: 10px;
+  margin: 2px 2px;
+  padding: 15px 5px;
+  position: relative;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+}
+
+.img-container{
+  height: fit-content;
+}
+.text-container{
+  
+}
+
+/* .row-item span{
+  margin: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+} */
 
 .skillimg{
   width: 25%;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
-
 
 .contact-description{
   width: 40%;
@@ -174,44 +196,63 @@ a:hover{
   background-position: 50% 50%;
   background-repeat: no-repeat;
   z-index: -1;
-  position: absolute;
+  position: fixed;
 }
 
 @media screen and (max-width: 1024px){
 
+  .top-container{
+    padding-top: 100px;
+    height: 500px;
+  }
+
+  .computer-screen-img{
+    height: auto;
+    width: 90%;
+    max-width: 700px;
+    max-height: 600px;
+  }
+
+  .top-container h1{
+    position: absolute;
+    font-size: 2.5rem;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  .top-container h2{
+    bottom: 0px;
+  }
+
   .middle-container{
-    margin: 200px 0;
+    margin: 100px 0;
   }
   
   #profile-img{
     width: 50%;
   }
-  
-  h2{
-    font-size: 3rem;
-  }
 
   .profile-description{
     width: 100%;
-    font-size: 1.5rem;
-    margin: auto;
+    font-size: 1rem;
+    margin: auto 5px;
   }
   
-  .skill-row{
-    width: 90%;
-    margin: 100px auto;
-    text-align: left;
+  .row-item{
+    flex: 1 0 48%;
   }
   
   .skillimg{
     width: 30%;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 10px;
   }
 
   h3{
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .skill-description{
@@ -220,19 +261,19 @@ a:hover{
 
   .contact-description{
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     
   }
 
   .contact-btn {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .footer-link{
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   
   #copyright-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
