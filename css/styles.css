@@ -33,7 +33,7 @@ hr{
   border: dotted #fbd46d 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 ::-webkit-scrollbar{
@@ -180,6 +180,15 @@ a:hover{
 
 .footer-link{
   font-weight: bold;
+  border: solid 2px #393e46;
+  border-radius: 6px;
+  padding: 6px;
+}
+.footer-link:hover{
+  font-weight: bolder;
+  color: #fbd49f;
+  background: #393e46;
+  text-decoration: none;
 }
 
 #copyright-text{
@@ -220,8 +229,15 @@ a:hover{
     top: 25%;
     transform: translate(-50%);
   }
+
   h2{
     font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  h4{
+    font-size: 0.8rem;
   }
   .top-container h2{
     bottom: 0px;
@@ -236,7 +252,7 @@ a:hover{
   }
 
   .profile-description{
-    width: 100%;
+    width: 99%;
     font-size: 1rem;
     margin: auto 5px;
   }
@@ -249,10 +265,6 @@ a:hover{
     width: 30%;
     float: left;
     margin-right: 10px;
-  }
-
-  h3{
-    font-size: 1rem;
   }
 
   .skill-description{
